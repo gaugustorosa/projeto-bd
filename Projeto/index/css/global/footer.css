@@ -1,0 +1,22 @@
+.footer-bg {
+  background-color: var(--cor-12);
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 3fr 5fr 4fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-copy {
+  grid-column: 1/-1;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#footer-login {
+  margin-top: 51px;
+  box-sizing: border-box;
+}

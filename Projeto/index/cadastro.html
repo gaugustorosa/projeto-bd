@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Banco de dados</title>
+  <meta name="description" content="Banco de dados">
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body id="cadastro">
+  <header class="header-bg">
+    <div class="header container">
+      <a href="./">
+        <div class="univap">
+          <img src="./img/univap.png" alt="Univap">
+        </div>
+      </a>
+
+      <nav aria-label="primaria">
+        <ul class="header-menu font-1-m cor-0">
+          <li><a href="./cadastro.html">Cadastro</a></li>
+          <li><a href="./login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="titulo-bg">
+      <div class="titulo container">
+        <p id="area_cliente" class="font-2-l-b cor-5">área do cliente</p>
+        <h1 id="cadastro_cliente" class="font-1-xxl cor-0">Realize o seu cadastro<span class="cor-p1">.</span></h1>
+      </div>
+    </div>
+
+    <form class="cadastro container" action="./cadastro.html">
+      <div class="cadastro-section">
+      </div>
+      </div>
+      <div class="cadastro-dados form">
+        <h2 class="font-1-xs cor-9 col-2">dados pessoais</h2>
+        <div>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome">
+        </div>
+        <div>
+          <label for="sobrenome">Sobrenome</label>
+          <input type="text" id="sobrenome" name="sobrenome">
+        </div>
+        <div>
+          <label for="senha">Senha</label>
+          <input type="text" id="senha" name="senha">
+        </div>
+        <div class="col-2">
+          <label for="cpf">CPF</label>
+          <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
+        </div>
+        <div class="col-2">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <h2 class="font-1-xs cor-9 col-2">endereço</h2>
+        <div>
+          <label for="cep">CEP</label>
+          <input type="text" id="cep" name="cep">
+        </div>
+        <div>
+          <label for="numero">Número</label>
+          <input type="text" id="numero" name="numero">
+        </div>
+        <div>
+          <label for="logradouro">Logradouro</label>
+          <input type="text" id="logradouro" name="logradouro">
+        </div>
+        <div>
+          <label for="bairro">Bairro</label>
+          <input type="text" id="bairro" name="bairro">
+        </div>
+        <div>
+          <label for="cidade">Cidade</label>
+          <input type="text" id="cidade" name="cidade">
+        </div>
+        <div>
+          <label for="estado">Estado</label>
+          <input type="text" id="estado" name="estado">
+        </div>
+        <button class="botao col-2">Cadastrar</button>
+      </div>
+    </form>
+  </main>
+
+  <footer class="footer-bg">
+    <div class="footer container">
+    </div>
+    <p class="footer-copy font-2-m cor-6">Gestão de Venda © Alguns direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
